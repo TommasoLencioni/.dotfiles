@@ -1,0 +1,6 @@
+alias ..='cd ..'
+alias pls='sudo $(history -p \!\!)'
+alias speedtest-cli='python3 /opt/speedtest-cli/speedtest.py'
+alias temperature='/opt/vc/bin/vcgencmd measure_temp'
+alias upgrade='sudo apt-get update && sudo apt-get upgrade'
+alias whatsmyip='curl -s ifconfig.me/ip'
